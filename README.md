@@ -33,15 +33,17 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-
+    Semantic HTML has inherent meaning. It describes its own usage. Semantic HTML is a new standard in HTML5. <div>s are presentational and are the default element semantic HTML (<main>, <header>, <nav>, etc.) will revert into with older browsers.
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-
+    {display: block;} can have a defined height and width. These start on a new line.
+    {display: inline;} items are treated like <span> in that height & width properties have no effect.
 3. What are the 4 areas of the box model?
-
+    Content / Padding / Border / Margin
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
-
+    {align-items:} is based off the y-axis. Items will be centered vertically.
 5. Explain why git is valuable to a team of developers.
-
+    git offers version control which is important for (1) tracking bugs & features (2) control issues or implement new ideas in a controlled environment as to not impact users/clientele.
+    
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
