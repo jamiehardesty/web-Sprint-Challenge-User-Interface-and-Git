@@ -1,4 +1,4 @@
-/* Stretches attempted: refactor HTML (indents/comments) & CSS is divided by section */
+/* Attemped ALL stretches - flex item property of choice is flex-basis under ABOUT */
 /* GENERAL STYLES */ 
 /* GENERAL STYLES */ 
 /* GENERAL STYLES */ 
@@ -71,10 +71,11 @@
     }
     .box-flex {
         display: flex;
+        flex-wrap: wrap;
     }
     .box-modules {
         margin: 2% 1%;
-        width: 50%;
+        flex-basis: 25%;
     }
     .box-modules hr, .box-modules h2 {
         margin: 5% 0;
