@@ -1,83 +1,90 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-header nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 6em;
-    width: 100%;
-}
-a {
-    margin-top: 1%;
-    text-decoration: none;
-    color: black;
-}
-.marginB {
-    margin-bottom: 2%;
-}
-.box-1 {
-    background-color: teal;
-}
-.box-2 {
-    background-color: gold;
-}
-.box-3 {
-    background-color: cadetblue;
-}
-.box-4 {
-    background-color: coral;
-}
-.box-5 {
-    background-color: crimson;
-}
-.box-6 {
-    background-color: forestgreen;
-}
-.box-7 {
-    background-color: darkorchid;
-}
-.box-8 {
-    background-color: hotpink;
-}
-.box-9 {
-    background-color: indigo;
-}
-.box-10 {
-    background-color: dodgerblue;
-}
+/* Stretches attempted: refactor HTML (indents/comments) & CSS is divided by section */
+/* GENERAL STYLES */ 
+/* GENERAL STYLES */ 
+/* GENERAL STYLES */ 
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 6em;
+        width: 100%;
+    }
+    a {
+        margin-top: 1%;
+        text-decoration: none;
+        color: black;
+    }
+/* INDEX */
+/* INDEX */
+/* INDEX */
+    .marginB {
+        margin-bottom: 2%;
+    }
+    .box-1 {
+        background-color: teal;
+    }
+    .box-2 {
+        background-color: gold;
+    }
+    .box-3 {
+        background-color: cadetblue;
+    }
+    .box-4 {
+        background-color: coral;
+    }
+    .box-5 {
+        background-color: crimson;
+    }
+    .box-6 {
+        background-color: forestgreen;
+    }
+    .box-7 {
+        background-color: darkorchid;
+    }
+    .box-8 {
+        background-color: hotpink;
+    }
+    .box-9 {
+        background-color: indigo;
+    }
+    .box-10 {
+        background-color: dodgerblue;
+    }
 /* ABOUT */
 /* ABOUT */
 /* ABOUT */
-hr {
-    border-top: 2px gray dotted;
-    margin: 3% 0;
-}
-.single-bottom {
-    margin: 0 2%;
-    padding-bottom: 5%;
-}
-.single-top {
-    margin: 0 2%;
-}
-.box-flex {
-    display: flex;
-}
-.box-modules {
-    margin: 2% 1%;
-    width: 50%;
-}
-.box-modules hr, .box-modules h2 {
-    margin: 5% 0;
-}
-.box-modules a {
-    border-radius: 5px;
-    border: 1px solid black;
-    padding: 2% 3%;
-    margin: 3% 0;
-    width: 30%;
-    text-align: center;
-    display: block;
-}
+    hr {
+        border-top: 2px gray dotted;
+        margin: 3% 0;
+    }
+    .single-bottom {
+        margin: 0 2%;
+        padding-bottom: 5%;
+    }
+    .single-top {
+        margin: 0 2%;
+    }
+    .box-flex {
+        display: flex;
+    }
+    .box-modules {
+        margin: 2% 1%;
+        width: 50%;
+    }
+    .box-modules hr, .box-modules h2 {
+        margin: 5% 0;
+    }
+    .box-modules a {
+        border-radius: 5px;
+        border: 1px solid black;
+        padding: 2% 3%;
+        margin: 3% 0;
+        width: 30%;
+        text-align: center;
+        display: block;
+    }
