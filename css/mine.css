@@ -49,3 +49,15 @@ a {
 .box-10 {
     background-color: dodgerblue;
 }
+
+/* ABOUT */
+hr {
+    border-top: 2px gray dotted;
+    margin: 3% 0;
+}
+.single-bottom {
+    margin: 5% 2%;
+}
+.single-top {
+    margin: 0 2%;
+}
